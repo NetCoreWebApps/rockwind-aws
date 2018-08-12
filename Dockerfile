@@ -3,5 +3,5 @@ COPY web /web
 ADD https://raw.githubusercontent.com/NetCoreWebApps/Rockwind.Aws/master/app/web.settings /web/web.settings
 WORKDIR /web
 EXPOSE 5000/tcp
-ENV ASPNETCORE_URLS https://*:5000
+ENV ASPNETCORE_URLS http://*:5000
 ENTRYPOINT ["dotnet", "/web/app.dll"]
