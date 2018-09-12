@@ -1,17 +1,25 @@
-# Rockwind.Aws
+# rockwind-aws
 
-Rockwind Cloud Web App on AWS.
+rockwind-aws is a [Pure Cloud App](http://templates.servicestack.net/docs/web-apps#pure-cloud-apps) Rockwind example website running entirely on AWS
 
-The `/app` folder contains the Rockwind Web App project.
+[![](https://raw.githubusercontent.com/NetCoreApps/TemplatePages/master/src/wwwroot/assets/img/screenshots/rockwind.png)](http://rockwind-aws.web-app.io)
 
-The `/web` folder contains the [Web Apps binaries](https://github.com/NetCoreWebApps/Web).
+## Install
 
-[![](http://templates.servicestack.net/assets/img/screenshots/rockwind.png)](http://rockwind-aws.web-app.io)
+Run as a Desktop App (Windows only):
 
-> Live Demo: http://rockwind-aws.web-app.io
+    $ dotnet tool install -g app
 
-See the detailed walkthrough at [Deploy .NET Core with Docker to EC2 Container Service](http://docs.servicestack.net/deploy-netcore-docker-aws-ecs) for instructions on setting up AWS EC2 Container Service to
-deploy multiple .NET Core Apps using Docker and Travis CI.
+    $ app install rockwind-aws
+    $ cd rockwind-aws && app
 
-See [templates.servicestack.net/docs/web-apps](http://templates.servicestack.net/docs/web-apps) to learn about ServiceStack Web Apps.
+Run as a .NET Core Web App (Windows, macOS, Linux):
 
+    $ dotnet tool install -g web
+
+    $ web install rockwind-aws
+    $ cd rockwind-aws && web
+
+## Learn
+
+See [templates.servicestack.net/docs/web-apps](http://templates.servicestack.net/docs/web-apps) to learn about ServiceStack .NET Core 2.1 Web Apps.
