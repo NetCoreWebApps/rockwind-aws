@@ -1,4 +1,10 @@
-# rockwind-aws
+# This project has moved to
+
+### https://github.com/sharp-apps/rockwind-aws
+
+---
+
+## rockwind-aws
 
 rockwind-aws is a [Pure Cloud App](http://templates.servicestack.net/docs/web-apps#pure-cloud-apps) Rockwind example website running entirely on AWS
 
